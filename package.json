@@ -1,0 +1,29 @@
+{
+  "name": "@norman-huth/laravel-types",
+  "description": "",
+  "keywords": [
+    "laravel",
+    "react",
+    "typescript",
+    "vuejs"
+  ],
+  "author": "Norman Huth",
+  "license": "MIT",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "pnpm": ">=8.10.0",
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.14.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  }
+}
