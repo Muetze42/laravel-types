@@ -7,16 +7,16 @@ export interface Breadcrumb {
 }
 
 export interface Breadcrumbs {
-  items: Breadcrumb[] // Todo: Collection
+  items: Breadcrumb[] // todo?
 }
 
 export interface Menu {
-  items: Array<MenuGroup | MenuItem | MenuList> // Todo: Collection
+  items: Array<MenuGroup | MenuItem | MenuList> // todo?
 }
 
 export interface MenuGroup extends Collapsable {
   component: string
-  items: Array<MenuGroup | MenuItem | MenuList> // Todo: Collection
+  items: Array<MenuGroup | MenuItem | MenuList> // todo?
   key: string
   name: string
 }
@@ -44,7 +44,7 @@ export interface MenuSection extends Collapsable {
   badge: Badge | null
   component: string
   icon: string | null
-  items: Array<MenuGroup | MenuItem | MenuList> // Todo: Collection
+  items: Array<MenuGroup | MenuItem | MenuList> // todo?
   key: string
   name: string
   path: string

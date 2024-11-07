@@ -7,7 +7,7 @@ export interface Field {
   component: string
   dependentComponentKey: string
   dependentShouldEmitChangesEvent: boolean
-  dependsOn: null | { [key: string]: string | number } // todo
+  dependsOn: null | { [key: string]: string | number } // todo?
   displayedAs: string | null
   fullWidth: boolean
   helpText: string | null
@@ -90,7 +90,7 @@ export interface CodeField extends Field {
 }
 
 export interface ColorField extends Field {
-  suggestions: any[] | null // todo
+  suggestions: any[] | null // todo?
 }
 
 export interface CountryField extends Field {
@@ -187,7 +187,7 @@ export interface KeyValueField extends Field {
 }
 
 export interface LineField extends TextField {
-  classes: { [key: string]: string } // Todo
+  classes: { [key: string]: string } // todo?
 }
 
 export interface MarkdownField extends Field {
@@ -239,7 +239,7 @@ export interface MorphToManyField extends Field, Paginateable {
 }
 
 export interface MultiSelectField extends Field {
-  options: any[] // Todo
+  options: any[] // todo?
 }
 
 export interface NumberField extends TextField {
@@ -258,11 +258,11 @@ export interface PasswordConfirmationField extends PasswordField {
 
 export interface RepeaterField extends Field {
   repeatables: boolean
-  sortable: any[] // Todo: Collection
+  sortable: any[] // todo?
 }
 
 export interface SelectField extends Field {
-  options: any[] // Todo
+  options: any[] // todo?
   searchable: boolean
 }
 
@@ -275,11 +275,11 @@ export interface SlugField extends Field {
 
 export interface SparklineField extends Field {
   chartStyle: string
-  data: any | any[] // Todo
+  data: any | any[] // todo?
 }
 
 export interface StackField extends Field {
-  lines: any[] // Todo: array | Collection
+  lines: any[] // todo?
 }
 
 export interface StatusField extends Field {
@@ -294,13 +294,13 @@ export interface TagField extends Field {
   showCreateRelationButton: boolean
   singularLabel: string
   style: string
-  validationKey: { [key: string]: string } // Todo
+  validationKey: { [key: string]: string } // todo?
   withPreview: boolean
   withSubtitles: boolean
 }
 
 export interface TextField extends Field {
-  suggestions?: any[] | null // todo
+  suggestions?: any[] | null // todo?
   asHtml: boolean
   copyable: boolean
 }

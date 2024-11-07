@@ -2,7 +2,7 @@ export type LaravelNovaId = string | number
 
 export interface ActionResponseVisit {
   path: string
-  options: { [key: string]: any } | null // todo
+  options: { [key: string]: any } | null // todo?
 }
 
 export interface Badge {
@@ -38,6 +38,27 @@ export interface IndexResource extends Resource {
   actions: Action[]
   previewHasFields: boolean
   authorizedToView: boolean
+}
+
+export interface IndexViewResource {
+  label: string
+  next_page_url: string | null
+  per_page: number
+  per_page_options: { [key: number]: number }
+  polling: boolean
+  pollingInterval: number
+  prev_page_url: string | null
+  resources: IndexResource[]
+  showPollingToggle: boolean
+  softDeletes: boolean
+  sortable: boolean
+  total: number
+}
+
+export interface DetailViewResource {
+  title: string
+  panels: Panel[]
+  resource: Resource
 }
 
 export interface Panel extends Collapsable {

@@ -13,7 +13,7 @@ export interface MetricTableRowMetric extends Metric {
   iconClass: string
   title: string
   subtitle: string
-  actions: any[] | null // Todo
+  actions: any[] | null // todo?
 }
 
 export interface PartitionMetric extends Metric {
