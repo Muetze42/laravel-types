@@ -9,7 +9,6 @@
   ],
   "author": "Norman Huth",
   "license": "MIT",
-  "packageManager": "pnpm@9.12.0",
   "engines": {
     "pnpm": ">=8.10.0",
     "node": ">=18.0.0"
